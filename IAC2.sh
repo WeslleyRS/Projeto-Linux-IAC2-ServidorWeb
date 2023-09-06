@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Atualizando Parametros do Servidor..."
+
 apt update -y
 apt upgrade -y
 apt install apache2 -y
